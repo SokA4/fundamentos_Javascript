@@ -45,11 +45,11 @@ Si no → “No contiene la letra E”.
 if (palabra.toLowerCase().includes('e')) { ... }
 */
 
-function verificarLetra(){
+function verificarLetra() {
     let palabra = prompt("Ingrese una palabra")
-    if(palabra.toLocaleLowerCase().includes(`e`)) {
+    if (palabra.toLocaleLowerCase().includes(`e`)) {
         alert("La palabra contiene la letra E")
-    } else{
+    } else {
         alert("La palabra no contiene la letra E")
     }
 }
@@ -60,17 +60,26 @@ Pide dos números con prompt().
 Si el primero es mayor → “El primer número es mayor”.
 Si el segundo es mayor → “El segundo número es mayor”.
 Si son iguales → “Son iguales”.
-*/ 
+*/
 
-function compararNumeros(){
+function compararNumeros() {
     let num1 = parseInt(prompt("Ingresa el primer numero"))
     let num2 = parseInt(prompt("Ingresar el segundo numero"))
-    if(num1 > num2){
+    if (num1 > num2) {
         alert("El primer numero es mayor")
-    }else if(num1 < num2){
+    } else if (num1 < num2) {
         alert("El segundo numero es mayor")
-    }else if(num1 == num2){
+    } else if (num1 == num2) {
         alert("Los numeros son iguales")
-    }else
+    } else
         alert("Sintax Error")
 }
+
+/*
+5️⃣ Determinar si el número es par o impar
+Pide un número.
+Si el resto al dividir por 2 (% 2) es 0 → “Número par”.
+Si no → “Número impar”.
+📘 Práctica: uso del operador módulo %.
+*/
+
