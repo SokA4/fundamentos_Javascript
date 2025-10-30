@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(66, 66, 218);
+    color: white;
+    height: 30px;
+    padding: 10px;
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    gap: 10px;
+}
+button{
+    background-color: rgb(14, 160, 14);
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(190, 255, 126);
+}
